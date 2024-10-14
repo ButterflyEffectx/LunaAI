@@ -1,0 +1,38 @@
+/* Preloader.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  backdrop-filter: blur(10px); /* เบลอพื้นหลัง */
+}
+
+.preloader-text {
+  font-family: 'Orbitron', sans-serif; /* ใช้ฟอนต์ Orbitron */
+  font-size: 64px; /* ขนาดตัวอักษรใหญ่ */
+  color: #6a0dad; /* สีม่วง */
+  animation: pulse 1.5s infinite; /* เพิ่มการเต้นของคำว่า Luna */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1); /* ขยายคำเล็กน้อย */
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
