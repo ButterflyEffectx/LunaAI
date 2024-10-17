@@ -17,7 +17,6 @@ An AI-driven chatbot designed to provide users with engaging and dynamic convers
 - **Multimedia Responses**: Share images, sounds, and videos to enrich the conversation.
 - **Conversation History**: Keep track of your chats for a seamless experience.
 - **Multilingual Support**: Communicate in various languages effortlessly.
-- **Voice Playback**: Hear Luna respond aloud, enhancing the interaction.
 - **Feedback System**: Users can provide feedback on responses to improve performance.
 
 ---
