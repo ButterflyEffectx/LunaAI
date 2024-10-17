@@ -22,7 +22,7 @@ An AI-driven chatbot designed to provide users with engaging and dynamic convers
 
 ---
 
-### 🎹 **Touchpad**
+### 🖋️ **Touchpad**
 
 An interactive touchpad interface that allows users to control various aspects of their experience seamlessly.
 
